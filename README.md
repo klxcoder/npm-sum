@@ -6,5 +6,5 @@ cd npm-sum
 echo "//registry.npmjs.org/:_authToken=<your-npm-token>" > .npmrc
 bun install
 bun run index.ts
-bun publish
+bun publish --access public
 ```
