@@ -1,15 +1,10 @@
-# npm-sum
-
-To install dependencies:
+# Commands:
 
 ```bash
+git clone git@github.com:klxcoder/npm-sum.git
+cd npm-sum
+echo "//registry.npmjs.org/:_authToken=<your-npm-token>" > .npmrc
 bun install
-```
-
-To run:
-
-```bash
 bun run index.ts
+bun publish
 ```
-
-This project was created using `bun init` in bun v1.2.15. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
