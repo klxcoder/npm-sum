@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "npm-sum",
+      "name": "@klxcoder/npm-sum",
       "devDependencies": {
         "@types/bun": "latest",
       },
